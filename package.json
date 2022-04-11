@@ -1,0 +1,21 @@
+{
+  "name": " ",
+  "version": "0.0.1",
+  "homepage": "./",
+  "description": "",
+  "keywords": "",
+  "license": "",
+  "author": "",
+  "scripts": {
+    "build": "parcel build index.html --public-url ./ dist/index.html",
+    "dev": "parcel index.html --open",
+    "start": "npm run build && npm run dev",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "npm run build && gh-pages -d dist"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3",
+    "parcel-bundler": "^1.12.4"
+  },
+  "type": "module"
+}

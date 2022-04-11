@@ -1,0 +1,6 @@
+two flags on sides 
+blue for correct
+send the class the word list and pick the words 
+words go daily 
+
+change google analytics in index.html
