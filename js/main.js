@@ -442,7 +442,7 @@ import paw from '../img/logo2.png';
       currWord = currWord.slice(0, -1);
       document.querySelector(`.row-${row}`).querySelector(`.col-${--col}`).textContent = "";
 
-    } else if (col <= WORD_LENGTH && key.match(/^[a-z]$/)) {
+    } else if (col <= WORD_LENGTH && key.match(/^[a-zòè]$/)) {
 
       currWord += key;
       document.querySelector(`.row-${row}`).querySelector(`.col-${col++}`).textContent = key.toUpperCase();
