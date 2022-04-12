@@ -419,7 +419,7 @@ import paw from '../img/logo2.png';
 
     if (key === "enter" && col === WORD_LENGTH + 1) {
 
-      if (currWord in words) {
+      if (currWord in derby) {
         if (storageAvailable('localStorage')){
           const prevLetters = JSON.parse(localStorage.getItem('prevLetters'));
           prevLetters.push(currWord);
