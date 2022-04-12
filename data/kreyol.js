@@ -5,7 +5,7 @@ const kreyol = [
     "demen", 
     "respè", 
     "petèt", 
-    "ampil", 
+    "anpil", 
     "danse", 
     "sonje",
     "babay",
