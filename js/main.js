@@ -1,4 +1,4 @@
-import words from '../data/words';
+import derby from '../data/words';
 // import derby from '../data/derby';
 // import paw from '../img/paw.png';
 
