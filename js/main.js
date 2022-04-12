@@ -1,6 +1,6 @@
 import derby from '../data/words';
 // import derby from '../data/derby';
-// import paw from '../img/paw.png';
+import paw from '../img/logo2.png';
 
 (() => {
 
