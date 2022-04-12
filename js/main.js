@@ -1,5 +1,5 @@
-import derby from '../data/words';
-// import derby from '../data/derby';
+import words from '../data/words';
+import kreyol from '../data/kreyol';
 import paw from '../img/logo2.png';
 
 (() => {
@@ -17,13 +17,13 @@ import paw from '../img/logo2.png';
 
   function getWordIndex() {
 
-    return Math.floor((new Date() - new Date('04/06/2022')) / 86400000) % (Object.keys(derby).length);
+    return Math.floor((new Date() - new Date('04/06/2022')) / 86400000) % (Object.keys(kreyol).length);
 
   }
 
   function init() {
 
-    answer = derby[getWordIndex()];
+    answer = kreyol[getWordIndex()];
 
     window.addEventListener("keydown", keyPressed);
 
@@ -219,8 +219,8 @@ import paw from '../img/logo2.png';
     }
 
     let result = (JSON.parse(localStorage.getItem('gameWin')))?
-                    `Derby Wordle ${getWordIndex()} ${row}/6`
-                        : `Derby Wordle ${getWordIndex()} X/6`;
+                    `Kreyol Wordle ${getWordIndex()} ${row}/6`
+                        : `Kreyol Wordle ${getWordIndex()} X/6`;
 
     for (let r = 1; r <= row; r++) {
 
@@ -419,7 +419,7 @@ import paw from '../img/logo2.png';
 
     if (key === "enter" && col === WORD_LENGTH + 1) {
 
-      if (currWord in derby) {
+      if (currWord in words) {
         if (storageAvailable('localStorage')){
           const prevLetters = JSON.parse(localStorage.getItem('prevLetters'));
           prevLetters.push(currWord);
