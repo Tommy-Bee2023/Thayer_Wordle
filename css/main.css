@@ -190,6 +190,7 @@ header .center h1 {
   width: 25em;
   max-width: 90vw;
   z-index: -1;
+  opacity: 0.80;
 }
 
 .container .row {
