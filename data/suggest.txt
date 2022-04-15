@@ -1,10 +1,3 @@
-check if main js paw is good when removing the correct flag 
-
-
-same font size for all the letters at info page. 
-
-
-Kretol - English translation link? in the info page
-
-
-The correct word was sonje. Change this to white expect for sonje. 
+1. same font size & font for all the letters on the info page.
+2. Kreyol - English translation link (dictionary) on the info page
+3. More words to be added into the mot-de-jour list. 
