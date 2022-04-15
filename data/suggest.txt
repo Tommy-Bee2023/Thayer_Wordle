@@ -1,6 +1,10 @@
-two flags on sides 
-blue for correct
-send the class the word list and pick the words 
-words go daily 
+check if main js paw is good when removing the correct flag 
 
-change google analytics in index.html
+
+same font size for all the letters at info page. 
+
+
+Kretol - English translation link? in the info page
+
+
+The correct word was sonje. Change this to white expect for sonje. 

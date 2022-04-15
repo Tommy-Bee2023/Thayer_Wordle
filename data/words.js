@@ -366,6 +366,7 @@ const words = {
   oratè : true,  
   òdinè : true,  
   pafwa : true, 
+  polis : true,
   pakin : true,  
   pakèt : true,  
   panik : true,  
@@ -544,7 +545,7 @@ const words = {
   zouti : true, 
   zwazo : true,  
   zèklè : true,  
-  Zòrèy : true,
+  zòrèy : true,
 
 }
 

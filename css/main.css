@@ -20,6 +20,8 @@
   --color-primary: rgb(68, 142, 240);
   --color-secondary: #446;
   --color-text: rgb(179, 179, 235);
+  --title-color: rgb(255, 255, 255);
+  --result-color: rgb(255, 255, 255);
   --keyboard-text: rgb(219, 185, 185);
   --text: #ff2222;
   --orange: #2244FF;
@@ -38,7 +40,7 @@
 }
 
 html {
-  color: var(--color-text);
+  color: var(--title-color);
   background: var(--color-primary);
   font-size: 1em;
   line-height: 1.4;
@@ -155,7 +157,7 @@ header .center {
 }
 
 header .center img {
-  width: 3.2em;
+  width: 5.2em;
   height: 3.2em;
 }
 
@@ -235,7 +237,7 @@ header .center h1 {
 }
 
 .result {
-  color: var(--color-text);
+  color: var(--result-color);
   font-size: 1.5rem;
   text-align: center;
   font-weight: 700;

@@ -10,6 +10,7 @@ const kreyol = [
     "sonje",
     "babay",
     "vodou",
+    
 
 ]
 

@@ -353,7 +353,7 @@ import paw from '../img/logo2.png';
         filled[i] = true;
         const cell = document.querySelector(`.row-${row}`).querySelector(`.col-${col}`);
         cell.classList.add('correct');
-        cell.style.backgroundImage = `url(${paw})`;
+        // cell.style.backgroundImage = `url(${paw})`;
         cell.style.backgroundSize = '60%';
         cell.style.backgroundRepeat = 'no-repeat';
         cell.style.backgroundPosition = 'center';
@@ -442,7 +442,7 @@ import paw from '../img/logo2.png';
       currWord = currWord.slice(0, -1);
       document.querySelector(`.row-${row}`).querySelector(`.col-${--col}`).textContent = "";
 
-    } else if (col <= WORD_LENGTH && key.match(/^[a-zòè]$/)) {
+    } else if (col <= WORD_LENGTH && key.match(/^[a-pr-wyzòè]$/)) {
 
       currWord += key;
       document.querySelector(`.row-${row}`).querySelector(`.col-${col++}`).textContent = key.toUpperCase();
