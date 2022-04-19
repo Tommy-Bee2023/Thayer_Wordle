@@ -1,3 +1,1 @@
-1. same font size & font for all the letters on the info page.
-2. Kreyol - English translation link (dictionary) on the info page
-3. More words to be added into the mot-de-jour list. 
+1. Kreyol - English translation link (dictionary) on the info page
